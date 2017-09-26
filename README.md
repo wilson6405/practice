@@ -43,7 +43,7 @@ struct stackNode
     - 判斷新節點資料記憶體位置有沒有配置成功(newPtr != NULL)。
     - 新增資料在最上頭
 - Pop
-    - 指向欲刪除資料的指標(tempPtr)。
+    - 宣告指向欲刪除資料的指標(tempPtr)。
     - 刪除在最頂端的資料。
 - Stack是否為空(Empty)
     - 是的回傳TRUE，反之FALSE。
