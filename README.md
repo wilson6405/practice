@@ -10,6 +10,7 @@ struct listNode
     sturct listNode *nextPtr;
 }
 ```
+Linkedlist操作
 - 插入節點(insert node)
     - 宣告指向新資料的指標(newPtr)，指向前一個資料的指標(previousPtr)，指向目前資料的指標(currentPtr)。
     - 判斷新節點資料記憶體位置有沒有配置成功(newPtr != NULL)
@@ -38,14 +39,17 @@ struct stackNode
 	struct stackNode *nextPtr;
 };
 ```
+Stack操作
 - Push
     - 宣告指向新資料的指標(newPtr)。
     - 判斷新節點資料記憶體位置有沒有配置成功(newPtr != NULL)。
     - 新增資料在最上頭
 - Pop
-    - 宣告指向欲刪除資料的指標(tempPtr)。
+    - 宣告指向欲刪除資料的指標(tempPtr)。
     - 刪除在最頂端的資料。
 - Stack是否為空(Empty)
     - 是的回傳TRUE，反之FALSE。
 - 印出Stack(print stack)
     - 用while印出每個節點資料，直到NULL。
+-----
+### - Queue
